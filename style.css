@@ -1,0 +1,198 @@
+body {
+    width: 650px;
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 1000px;
+}
+
+header {
+    background-color: blue;
+    color: azure;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: stretch;
+}
+header img{
+    height: 80px;
+    width: 80px;
+}
+header h1 {
+    margin: 0;
+    text-transform: capitalize;
+}
+
+h2 {
+    text-transform: capitalize;
+    text-align: center;
+    color: aliceblue;
+}
+
+.mainoption{
+
+    display: flex;
+    background-color: gray;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-self: flex-start;
+}
+
+.div1 {
+    width: 250px;
+    height: 250px;
+    background-color: brown;
+}
+.div1 li{
+    list-style: disc;
+    color: chartreuse;
+}
+
+.div2{
+    width: 350px;
+    background-color: seagreen;
+    height: 500px;
+}
+.div2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.div2 ul li{
+    list-style-type: none;
+    color: aliceblue;
+    padding: 5px;
+}
+.div2 p{
+    padding: 5px;
+    color: chartreuse;
+    overflow-y: scroll;
+    text-align: justify;
+    height: 160px;
+}
+.div2 p::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .div2 p::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .div2 p::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px; 
+  }
+  
+  /* Handle on hover */
+  .div2 p::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.div2 h3{
+    color: aliceblue;
+}
+.div3 {
+    width: 250px;
+    background-color: royalblue;
+    height: 450px;
+
+}
+.div3 h3{
+    color: aliceblue;
+    text-align: center;
+}
+.div3 li{
+    color: aliceblue;
+}
+.div3 li a{
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.div4 {
+    width: 350px;
+    background-color: yellowgreen;
+    height: 200px;
+}
+.div4 p{
+    color: crimson;
+    padding: 5px;
+}
+
+.div5 {
+    width: 400px;
+    background-color: rebeccapurple;
+    height: 200px;
+}
+.div5 img{
+    width: 95px;
+}
+
+.div6 {
+    width: 200px;
+    background-color: mediumvioletred;
+    height: 200px;
+}
+.div6 p{
+    overflow-y: scroll;
+    height: 100px;
+}
+.div6 h2{
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.div6 h3{
+    color: aliceblue;
+    text-align: center;
+    margin: 0;
+}
+.div6 p::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .div6 p::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .div6 p::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .div6 p::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
+footer {
+    background-color: blue;
+}
+.div1, .div2, .div3, .div4, .div5, .div6{
+    margin: 10px;
+}
+
+footer{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer img{
+    width: 80px;
+}
+footer p{
+    padding-top: 10px;
+    color: dimgrey;
+}
